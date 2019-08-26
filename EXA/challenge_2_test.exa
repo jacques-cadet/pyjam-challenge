@@ -1,0 +1,7 @@
+COPY 10 X
+COPY X T
+TEST X = T
+SUBI X T T
+TEST X > T
+TEST T < 1
+NOTE Result: T = 0 X = 10 
